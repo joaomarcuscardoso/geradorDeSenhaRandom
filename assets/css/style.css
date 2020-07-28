@@ -1,0 +1,82 @@
+body{
+ padding:0px;
+ margin: 0px;
+ background-color: #eee;
+}
+/* Menu */
+nav {
+    background-color: #191919;
+}
+nav a {
+    color:#ccc;
+}
+nav a:hover {
+    color:#eee;
+    text-decoration:underline!important;
+}
+/* Parte do mes */
+#container-month {
+    margin:0px;
+    display:flex;
+    height:91vh;
+
+    justify-content: center;
+    align-items:center;
+}
+
+.passowrd-col {
+
+    height:300px;
+    background-color: #000;
+}
+.form-password-generation {
+    margin-top:25px;
+}
+.labelGeneration {
+    color:#fff;
+
+}
+.inputGeneration {
+    margin-left:4px;
+    border-radius:4px;
+    width:15%;
+}
+
+.container-checkbox {
+    float:right;
+    display:block;
+    max-width: 250px;
+    width:40%;
+    padding-left: 10px;
+
+}
+.list-checkbox {
+
+    width:100%;
+    
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.container-result-generation {
+    width: 100%;
+    float:left; 
+    padding:5px;
+ 
+
+}
+.container-result-generation input {
+    float:left;
+ 
+
+}
+.container-copyboard {
+    padding:4px;
+    position: absolute;
+
+
+}
+.labelPasswordResult {
+    color:#fff;
+    font-size: 15px;
+}
